@@ -1,0 +1,340 @@
+
+
+h1{
+
+	font-family: Arial, Helvetica, sans-serif;
+ 	text-align: left;
+ 	font-style: arial;
+ 	font-size: 50px;
+ 	color: orange;
+ 	text-align: center;
+
+ }
+
+
+ h2{
+
+	font-family: Arial, Helvetica, sans-serif;
+ 	text-align: center;
+ 	font-style: arial;
+ 	font-size: 30px;
+ 	color: black;
+ 	font-weight:normal;
+ 	background-color: white;
+ 	margin-left: 05px;
+ 	padding-bottom: 10px;
+ 	padding-top: 10px;
+
+
+
+ }
+
+ body {
+
+ 	background-color: #f3e7c3;
+	/*background-color: #282923;*/
+
+ }
+
+/*//Not sure about what's happening here//*/
+/*.qCards{
+ 	max-width: 800px;
+ 	max-height:600px;
+  margin: 0 auto;
+
+ }
+*/
+
+
+
+.scoreboard {
+
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 40px;
+		text-indent:10px;
+		color: white;
+		float: left;
+    width: 933px;
+    height: 50px;
+    padding: 05px;
+    margin: 05px;
+    background-color: orange;
+}
+
+
+
+.qCards {
+		float: left;
+    width: 800px;
+    padding: 05px;
+}
+
+
+ .row{
+
+		position: relative;
+	 	display: grid;
+	 	grid-template-columns: repeat(4, 1fr);
+	 	/*grid template col makes 3 columns for the board.
+	 	fr is fractional unit for the available space.
+	 	repeat method give 1 fr for 3 columns/
+	 	grid-auto-rows: auto;/*specifies the size of an implicitly-created grid row track*/
+	 	grid-gap: 10px;
+	 	margin: auto;
+
+ }
+
+
+.visuals{
+
+	 	font-size: 60px;
+	 	background-color: gray;
+	 	border: 0px solid black;
+	 	text-align: center;
+	 	height: 150px;
+	 	width: 300px;
+	 	margin-top: : 10px;
+	 	margin-right: 10px;
+	 	margin-bottom: 10px;
+
+ }
+
+ .answers{
+
+		font-family: Arial, Helvetica, sans-serif;
+ 	  font-size: 30px;
+ 	  color: white;
+ 	  padding-top: 10px;
+	 	background-color: #282922;
+	 	text-align: center;
+	 	height: 138px;
+	 	width: 300px;
+	 	margin-top: : 10px;
+	 	margin-right: 10px;
+	 	margin-left: 05px;
+}
+
+
+
+.clue{
+
+		font-family: Arial, Helvetica, sans-serif;
+	 	font-size: 30px;
+	 	font-weight: bold;
+	 	color: white;
+	 	background-color: #3d96e8;
+	 	padding-top: 20px;
+	 	text-align: center;
+	 	height: 60px;
+	 	width: 940px;
+	 	margin-top: : 10px;
+	 	margin-right: 5px;
+
+	 	/*TURN THIS OFF WHEN ADDING GIFs FOR RESULTS*/
+	 	margin-bottom: 5px;
+
+ }
+
+
+
+.screen {
+
+
+	background-color: white;
+	height: 186px;
+ 	width: 364px;
+	margin-bottom: 40px;
+
+
+
+}
+
+/*.reaction{
+
+display: grid;
+		font-family: Arial, Helvetica, sans-serif;
+	 	font-size: 40px;
+	 	font-weight: bold;
+	 	color: white;
+	 	background-color: black;
+	 	text-align: center;
+	 	height: 150px;
+	 	width: 620px;
+	 	margin-top: 10px;
+	 	margin-right: 5px;
+	 	margin-bottom: 50px;
+
+ }*/
+
+
+#square1 {
+
+	background-color: #21a798;
+	height: 150px;
+ 	width: 300px;
+ 	margin-top: : 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+
+}
+
+/*#square1:active {
+
+	background-image: url("Images/q1_img1.png")
+
+
+}*/
+
+#square2 {
+
+	background-color: #21a798;;
+	font-size: 30px
+	height: 150px;
+ 	width: 300px;
+ 	margin-top: : 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+
+}
+
+/*#square2:active {
+
+	background-image: url("Images/q1_img2.png")
+
+
+}*/
+
+
+#square3 {
+
+	background-color: #21a798;;
+	height: 150px;
+ 	width: 300px;
+ 	margin-top: : 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+
+}
+/*
+#square3:active {
+
+	background-image: url("Images/q1_img3.png")
+
+
+}*/
+
+
+#square5 {
+
+	background-color: #21a798;;
+	height: 150px;
+ 	width: 300px;
+ 	margin-top: : 50px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+
+}
+
+/*#square5:active {
+
+	background-image: url("Images/q2_img1.png")
+
+
+}*/
+
+#square6 {
+
+	background-color: #21a798;;
+	height: 150px;
+ 	width: 300px;
+ 	margin-top: : 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+
+}
+
+/*#square6:active {
+
+	background-image: url("Images/q2_img2.png")
+
+
+}*/
+
+
+#square7 {
+
+	background-color: #21a798;;
+	height: 150px;
+ 	width: 300px;
+ 	margin-top: : 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+
+}
+
+/*#square7:active {
+
+	background-image: url("Images/q2_img3.png")
+
+
+}*/
+
+#square9 {
+
+	background-color: #21a798;;
+	height: 150px;
+ 	width: 300px;
+ 	margin-top: : 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+
+}
+
+/*#square9:active {
+
+	background-image: url("Images/q3_img1.png")
+
+
+}
+*/
+#square10 {
+
+	background-color: #21a798;;
+	height: 150px;
+ 	width: 300px;
+ 	margin-top: : 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+
+}
+
+/*#square10:active {
+
+	background-image: url("Images/q3_img2.png")
+
+
+}*/
+
+#square11 {
+
+	background-color: #21a798;;
+	height: 150px;
+ 	width: 300px;
+ 	margin-top: : 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+
+}
+
+#/*square11:active {
+
+	background-image: url("Images/q3_img3.png")
+
+
+}
+*/
+
+
+
+
+
