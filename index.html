@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta charset="UTF-8">
+     <title>3 SCENES 1 MOVIE</title>
+     <link rel="stylesheet" href="style.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+
+
+<h1>3 SCENES 1 MOVIE</h1>
+
+<h2>Click to reveal 3 scenes from a movie, and enter the name of the movie.</h2>
+
+<div class="scoreboard" id="scoreNo">
+
+    Your Score = 0
+
+</div>
+
+
+<div class="qCards">
+
+    <div class= "row">
+
+
+        <div class="visuals" id="square1">
+            <img src="https://i.imgur.com/RAn2Lx4.png" alt= "clicker" id="backside01" onclick="change01();">
+        </div>
+
+        <div class="visuals" id="square2">
+
+            <img src="https://i.imgur.com/RAn2Lx4.png" alt= "clicker" id="backside02" onclick="change02();">
+        </div>
+
+        <div class="visuals" id ="square3">
+            <img src="https://i.imgur.com/RAn2Lx4.png" alt= "clicker" id="backside03" onclick="change03();">
+        </div>
+
+        <div class="answers" id="square4">
+
+            <!-- <form action="/action_page.php"> -->
+            Guess the movie <input  name = "text" id="userInput1">
+
+            <input type="submit" id="submitButton">
+            <!-- </form> -->
+
+
+        </div>
+
+
+
+
+    </div>
+
+        <div class="hint">
+
+
+        <div class="clue" id="clue1"></div>
+        <div class="screen" id="gif01">
+            <img src="https://i.imgur.com/RDg5B42.gif" id="joey">
+        </div>
+
+
+    </div>
+
+
+
+
+    <div class= "row">
+
+
+        <div class="visuals" id="square5">
+            <img src="https://i.imgur.com/RAn2Lx4.png" alt= "clicker" id="backside05" onclick="change05();">
+
+        </div>
+        <div class="visuals" id="square6">
+            <img src="https://i.imgur.com/RAn2Lx4.png" alt= "clicker" id="backside06" onclick="change06();">
+        </div>
+        <div class="visuals" id="square7">
+            <img src="https://i.imgur.com/RAn2Lx4.png" alt= "clicker" id="backside07" onclick="change07();">
+        </div>
+        <div class="answers" id="square8">
+
+            Guess the movie: <input  name = "text" id="userInput2">
+
+            <input type="submit" id="submitButton">
+
+        </div>
+
+    </div>
+
+        <div class="hint">
+        <div class="clue" id="clue2"></div>
+
+       <div class="screen" id="gif02">
+            <img src="https://i.imgur.com/RDg5B42.gif" id="joey02">
+        </div>
+        </div>
+
+
+    <div class= "row">
+
+        <div class="visuals" id="square9">
+            <img src="https://i.imgur.com/RAn2Lx4.png" alt= "clicker" id="backside09" onclick="change09();">
+        </div>
+        <div class="visuals" id="square10">
+            <img src="https://i.imgur.com/RAn2Lx4.png" alt= "clicker" id="backside10" onclick="change10();">
+        </div>
+        <div class="visuals" id="square11">
+            <img src="https://i.imgur.com/RAn2Lx4.png" alt= "clicker" id="backside11" onclick="change11();">
+        </div>
+        <div class="answers" id="square12">
+
+            Guess the movie: <input  name = "text" id="userInput3">
+
+            <input type="submit" id="submitButton">
+
+
+        </div>
+
+
+    </div>
+
+            <div class="hint">
+            <div class="clue" id="clue3"></div>
+
+            <div class="screen" id="gif03">
+            <img src="https://i.imgur.com/RDg5B42.gif" id="joey03">
+
+        </div>
+
+
+
+
+
+
+</div>
+
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
